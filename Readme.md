@@ -5,3 +5,4 @@ Welcome to the multi-project repository! This repository contains several projec
 ## Projects
 
 1. [Pi estimation using Monte Carlo Simulation](Pi_estimation) 
+2. [Modelling Population growth using Differential Equations](Population_growth) 
