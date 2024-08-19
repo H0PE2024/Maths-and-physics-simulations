@@ -8,9 +8,9 @@ Estimating π (pi) might sound complex, but it can be surprisingly straightforwa
 
 2. **Random Points:** Generate random points within the square. Each point is defined by its coordinates \((x, y)\).
 
-3. **Inside the Circle:** Check whether each point falls inside the circle using the equation \(x^2 + y^2 \leq 1\). This determines if the point is inside the circle.
+3. **Inside the Circle:** Check whether each point falls inside the circle using the equation $(x^2 + y^2 = 1)$. This determines if the point is inside the circle.
 
-4. **Estimate Pi:** The ratio of points inside the circle to the total number of points approximates the area of the circle relative to the square. Since the area of the circle is \(\pi\) and the area of the square is 4, the ratio should be approximately \(\pi/4\). Multiply this ratio by 4 to estimate π.
+4. **Estimate Pi:** The ratio of points inside the circle to the total number of points approximates the area of the circle relative to the square. Since the area of the circle is $\pi$ and the area of the square is 4, the ratio should be approximately $\pi/4$. Multiply this ratio by 4 to estimate π.
 
 5. **Visualization:** Plot the points to visualize how the estimate improves as the number of points increases.
 
