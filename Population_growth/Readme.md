@@ -38,7 +38,7 @@ $$
 2. Integrate both sides:
 
 $$
-\int \frac{1}{P} \, dP = \int r \, dt
+\int \frac{1}{P} \. dP = \int r \. dt
 $$
 
 $$
@@ -116,7 +116,7 @@ To solve this differential equation, follow these steps:
 1. Rearrange and separate variables:
 
 $$
-\frac{dP}{P \left(1 - \frac{P}{K}\right)} = r \, dt
+\frac{dP}{P \left(1 - \frac{P}{K}\right)} = r \. dt
 $$
 
 2. Use partial fraction decomposition to integrate:
@@ -193,10 +193,13 @@ With these models, you can simulate and visualize population growth in different
 In the extended logistic growth model, the carrying capacity changes over time, reflecting more complex real-world scenarios.
 
 **Differential Equation:**
+
 $$
 \frac{dP}{dt} = r \cdot P \cdot \left(1 - \frac{P}{K(t)}\right)
 $$
+
 where \( K(t) \) varies linearly:
+
 $$
 K(t) = K_0 + K_{\text{rate}} \cdot t
 $$
@@ -267,7 +270,7 @@ $$
 \frac{dW}{dt} = \beta \alpha S W - \delta W
 $$
 
-- where $ \alpha S W$ represents number of sheep killed by wolves
+- where $\alpha SW$ represents number of sheep killed by wolves
 - $\beta \alpha S W$ represents number of wolves increasing on consuming sheep
 
 These equations represent the interaction between the wolf and sheep populations over time, where the sheep population grows logistically and is reduced by predation, while the wolf population grows by consuming sheep and declines due to natural deaths.
