@@ -29,33 +29,33 @@ where:
 
 To solve this differential equation, we can use separation of variables:
 
-1. Rearrange the equation:
+1. Rearrange the equation:    
 
-   $$
-   \frac{dP}{P} = r \, dt
-   $$
+$$
+\frac{dP}{P} = r \. dt
+$$
 
 2. Integrate both sides:
 
-   $$
-   \int \frac{1}{P} \, dP = \int r \, dt
-   $$
+$$
+\int \frac{1}{P} \, dP = \int r \, dt
+$$
 
-   $$
-   \ln|P| = rt + C
-   $$
+$$
+\ln|P| = rt + C
+$$
 
 3. Solve for \( P \):
 
-   $$
-   P = e^{rt + C}
-   $$
+$$
+P = e^{rt + C}
+$$
 
    Since \( e^C \) is a constant, we can rewrite it as \( P_0 \):
 
-   $$
-   P = P_0 e^{rt}
-   $$
+$$
+P = P_0 e^{rt}
+$$
 
    where \( P_0 \) is the initial population at \( t = 0 \).
 
@@ -80,7 +80,7 @@ where:
 
 ### REALLY?
 
-**Why does it not happen in real life? What are we missing in our simple model?**
+**Why does population not keep growing in real life? What are we missing in our simple model?**
 
 **Shortcomings:**
 
@@ -115,45 +115,45 @@ To solve this differential equation, follow these steps:
 
 1. Rearrange and separate variables:
 
-   $$
-   \frac{dP}{P \left(1 - \frac{P}{K}\right)} = r \, dt
-   $$
+$$
+\frac{dP}{P \left(1 - \frac{P}{K}\right)} = r \, dt
+$$
 
 2. Use partial fraction decomposition to integrate:
 
-   $$
-   \frac{1}{P \left(1 - \frac{P}{K}\right)} = \frac{1}{P} + \frac{1}{K - P}
-   $$
+$$
+\frac{1}{P \left(1 - \frac{P}{K}\right)} = \frac{1}{P} + \frac{1}{K - P}
+$$
 
    Thus:
 
-   $$
-   \int \left(\frac{1}{P} + \frac{1}{K - P}\right) dP = \int r \, dt
-   $$
+$$
+\int \left(\frac{1}{P} + \frac{1}{K - P}\right) dP = \int r \, dt
+$$
 
 3. Integrate both sides:
 
-   $$
-   \ln \left| \frac{P}{K - P} \right| = rt + C
-   $$
+$$
+\ln \left| \frac{P}{K - P} \right| = rt + C
+$$
 
 4. Solve for \( P \):
 
-   $$
-   \frac{P}{K - P} = e^{rt + C}
-   $$
+$$
+\frac{P}{K - P} = e^{rt + C}
+$$
 
    Rewriting \( e^C \) as \( C' \):
 
-   $$
-   \frac{P}{K - P} = C' e^{rt}
-   $$
+$$
+\frac{P}{K - P} = C' e^{rt}
+$$
 
    Solving for \( P \):
 
-   $$
-   P = \frac{KC' e^{rt}}{1 + C' e^{rt}}
-   $$
+$$
+P = \frac{KC' e^{rt}}{1 + C' e^{rt}}
+$$
 
    where \( C' \) is a constant determined by initial conditions.
 
@@ -176,10 +176,10 @@ With these models, you can simulate and visualize population growth in different
 ### Improvements Offered:
 
 1. **Realistic Growth Limitation:**
-   - The logistic model incorporates a carrying capacity $ K $, representing the maximum population size the environment can support. As the population approaches this limit, the growth rate slows down and eventually stabilizes. This provides a more realistic representation of growth over time.
+   - The logistic model incorporates a carrying capacity  **K**, representing the maximum population size the environment can support. As the population approaches this limit, the growth rate slows down and eventually stabilizes. This provides a more realistic representation of growth over time.
 
 2. **Adjustment for Resource Constraints:**
-   - By including the term $ \left(1 - \frac{P}{K}\right) $, the logistic model accounts for the diminishing availability of resources as the population increases. This makes it more applicable to real-world scenarios where resources are finite.
+   - By including the term $1 - \frac{P}{K}$, the logistic model accounts for the diminishing availability of resources as the population increases. This makes it more applicable to real-world scenarios where resources are finite.
 
 
 ### Shortcomings
