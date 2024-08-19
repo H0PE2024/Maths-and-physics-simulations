@@ -277,3 +277,9 @@ These equations represent the interaction between the wolf and sheep populations
 
 ## Simulation results
 ![Population_variation](prey-predator.png)
+
+## Muddy points (points to think upon)
+- Can we model multi-species interactions?
+- Are the prey-predator equations linear?
+- What combination of parameters will give us a steady state in population?
+- Why do our simulations look unstable? Are we missing any modelling, or using the wrong set of parameter?
