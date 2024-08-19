@@ -4,4 +4,4 @@ Welcome to the multi-project repository! This repository contains several projec
 
 ## Projects
 
-1. [Project 1: Pi Estimation Simulation](Pi_estimation)
+1. [Pi estimation using Monte Carlo Simulation](Pi_estimation) 
